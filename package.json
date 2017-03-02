@@ -1,0 +1,62 @@
+{
+  "name": "react-mui-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal boilerplate with React, Redux, Material UI, Webpack 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --history-api-fallback",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GusRuss89/react-mui-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "material",
+    "ui",
+    "redux",
+    "webpack"
+  ],
+  "author": "Angus Russell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GusRuss89/react-mui-boilerplate/issues"
+  },
+  "homepage": "https://github.com/GusRuss89/react-mui-boilerplate#readme",
+  "dependencies": {
+    "material-ui": "^0.17.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "express": "^4.15.0",
+    "file-loader": "^0.10.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.0",
+    "postcss-loader": "^1.3.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^6.0.2",
+    "standard": "^9.0.0",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-server": "^2.4.1",
+    "webpack-hot-middleware": "^2.17.1"
+  }
+}
